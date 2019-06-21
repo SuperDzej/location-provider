@@ -1,0 +1,15 @@
+.filter-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px;
+}
+
+.filter-form-field {
+    margin: 0 5px;
+}
+
+.filter-form-submit {
+    padding-left: 10px;
+    align-self: center;
+}

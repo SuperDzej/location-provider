@@ -1,0 +1,23 @@
+<div class="example-container mat-elevation-z8">
+    <app-filter [filter]="filter" (filterChanged)="onFilterChange()"></app-filter>
+    <hr />
+    <div class="example-loading-shade" *ngIf="isLoadingResults">
+        <mat-spinner *ngIf="isLoadingResults"></mat-spinner>
+    </div>
+    <div class="new-location-container">
+        <label class="new-location-click-desc">Add new location</label>
+        <button class="new-location-click" mat-raised-button color="primary" (click)="addNew()">New</button>
+    </div>
+
+    <hr />
+    <div>
+        <div *ngIf="locations.length > 0">
+                <p class="location-list-header">List of locations</p>
+                <app-location-list [locations]="locations"></app-location-list>
+        </div>
+        <div *ngIf="!isLoadingResults && locations.length == 0" class="noData">
+            <p>No locations to show, please add location</p>
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,13 @@
+.new-location-header {
+    color: #3C5A99;
+}
+
+.options-btn-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.new-location-option-btn {
+    flex-grow: 1;
+} 
