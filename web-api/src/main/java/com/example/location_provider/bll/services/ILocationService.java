@@ -1,6 +1,6 @@
-package com.example.demo.bll.services;
+package com.example.location_provider.bll.services;
 
-import com.example.demo.dal.models.Location;
+import com.example.location_provider.dal.models.Location;
 import org.bson.types.ObjectId;
 
 import java.util.List;

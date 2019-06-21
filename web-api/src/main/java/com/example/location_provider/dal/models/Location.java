@@ -1,4 +1,4 @@
-package com.example.demo.dal.models;
+package com.example.location_provider.dal.models;
 
 
 import org.bson.types.ObjectId;
@@ -11,10 +11,19 @@ public class Location {
     @Id
     private ObjectId id;
 
+    /**
+     * Latitude coordinate of point on the map
+     */
     @NotNull
     private Double latitude;
+    /**
+     * Longitude coordinate of point on the map
+     */
     @NotNull
     private Double longitude;
+    /**
+     * Name of location that is described by lat and lng
+     */
     @NotNull
     @Size(min = 1, max = 50)
     private String locationName;

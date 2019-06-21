@@ -13,13 +13,13 @@ Locations app with Spring Boot and Angular
 **1. Clone the application**
 
 ```bash
-git clone https://github.com/asazic/locations-demo-app.git
+git clone https://github.com/SuperDzej/location-provider.git
 ```
 
 **2. Build and run the backend app using maven**
 
 ```bash
-cd demo
+cd web-api
 mvn package
 java -jar target/demo-0.0.1-SNAPSHOT.jar
 ```
@@ -33,11 +33,16 @@ mvn spring-boot:run
 Backend server will run on <http://localhost:8080>
 
 
-**3. Run the frontend app using npm**
+**3. Run the frontend app using npm or yarn**
 
 ```bash
-cd client-app
+cd front-end
 npm install
+```
+
+```bash
+cd front-end
+yarn install
 ```
 
 ```bash

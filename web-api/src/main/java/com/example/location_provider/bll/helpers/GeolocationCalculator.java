@@ -1,4 +1,4 @@
-package com.example.demo.bll.helpers;
+package com.example.location_provider.bll.helpers;
 
 public class GeolocationCalculator {
     public static double calculateDistanceInKilometers(double startLat, double startLong,

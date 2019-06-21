@@ -1,6 +1,6 @@
-package com.example.demo.dal.interfaces;
+package com.example.location_provider.dal.interfaces;
 
-import com.example.demo.dal.models.Location;
+import com.example.location_provider.dal.models.Location;
 import org.bson.types.ObjectId;
 import org.springframework.data.mongodb.repository.MongoRepository;
 

@@ -1,7 +1,7 @@
-package com.example.demo.webapi.controllers;
+package com.example.location_provider.webapi.controllers;
 
-import com.example.demo.dal.models.Location;
-import com.example.demo.bll.services.ILocationService;
+import com.example.location_provider.dal.models.Location;
+import com.example.location_provider.bll.services.ILocationService;
 import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
